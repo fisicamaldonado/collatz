@@ -5,10 +5,10 @@ La conjetura de Collatz, también conocida como la conjetura 3n+1, es uno de los
 
 "Para cualquier número natural n:
 
--- Si n es par, divídalo por 2.
--- Si n es impar, multiplíquelo por 3 y sume 1.
--- Repita este proceso para el nuevo número obtenido.
--- La conjetura establece que, independientemente del número inicial n, eventualmente se llegará al número 1 y se entrará en un ciclo de la forma: 4, 2, 1, 4, 2, 1, ..."
+- Si n es par, divídalo por 2.
+- Si n es impar, multiplíquelo por 3 y sume 1.
+- Repita este proceso para el nuevo número obtenido.
+- La conjetura establece que, independientemente del número inicial n, eventualmente se llegará al número 1 y se entrará en un ciclo de la forma: 4, 2, 1, 4, 2, 1, ..."
 
 La conjetura de Collatz sugiere que sin importar el número de inicio, eventualmente se alcanzará el número 1 siguiendo las reglas de la conjetura.
 
