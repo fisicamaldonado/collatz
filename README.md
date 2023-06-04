@@ -1,5 +1,5 @@
 # Collatz Conjecture
-A study of the Collatz conjecture and the unusual behavior of the number 27
+A study of the Collatz conjecture and the unusual behavior of the number 27.
 
 The Collatz conjecture, also known as the 3n+1 conjecture, is one of the most famous unsolved problems in mathematics:
 
@@ -91,3 +91,32 @@ Al graficar el ratio en función de los "números mágicos de Collatz" se puede 
 - Todos los resultados obtenidos, no constituyen un estudio formal de la conjetura y se han creado con la finalidad de aplicar la librería Matplotlib para analizar la conjetura y colaborar con su difusión y divulgación en nuestra comunidad.
 
 Cualquier sugerencia es muy bienvenida y pueden hacerme llegar sus comentarios a fisicamaldonado.vaz@gmail.com
+
+
+# Biographical overview
+
+The Collatz conjecture is named after the German mathematician Lothar Collatz, who formulated it in 1937. Collatz was born on July 6, 1910, in Arnsberg, Germany, and passed away on September 26, 1990, in Hamburg.
+
+Collatz was a mathematician known for his work in number theory and mathematical analysis. Throughout his career, he made significant contributions in various fields, including the theory of functions, Diophantine equations, and ergodic theory.
+
+The motivation behind Collatz's formulation of the conjecture is not clearly documented. It is believed that the conjecture emerged as a result of his fascination with patterns and recurrent behaviors in numerical sequences. Collatz may have been inspired by other similar mathematical problems involving sequences, such as the Syracuse problem.
+
+Although Collatz published the conjecture in an internal report in 1937, the lack of significant progress in its proof or refutation led to its limited popularity until the 1970s when it was mentioned in mathematical publications and became a subject of study and curiosity.
+
+Despite its apparent simplicity, the Collatz conjecture has proven to be extremely difficult to resolve. Numerous mathematicians have attempted to find a proof or counterexample, but to this day, the conjecture remains open and without a generally accepted solution.
+
+Despite the lack of progress in his conjecture, Collatz left a lasting legacy in mathematics, and his conjecture continues to be a subject of fascination and study for mathematicians and enthusiasts worldwide.
+
+# Reseña Biográfica
+
+La conjetura de Collatz lleva el nombre del matemático alemán Lothar Collatz, quien la formuló en 1937. Collatz nació el 6 de julio de 1910 en Arnsberg, Alemania, y falleció el 26 de septiembre de 1990 en Hamburgo.
+
+Collatz era un matemático conocido por su trabajo en teoría de números y análisis matemático. Durante su carrera, realizó importantes contribuciones en varios campos, incluyendo la teoría de funciones, las ecuaciones diofánticas y la teoría ergódica.
+
+La motivación de Collatz para formular su conjetura no está claramente documentada. Se cree que la conjetura surgió como resultado de su fascinación por los patrones y comportamientos recurrentes en las secuencias numéricas. Collatz pudo haberse inspirado en otros problemas matemáticos similares que involucran secuencias, como el problema de Syracuse.
+
+Aunque Collatz publicó la conjetura en un informe interno en 1937, la falta de avances significativos en su demostración o refutación llevó a que la conjetura no se popularizara ampliamente hasta la década de 1970, cuando fue mencionada en publicaciones matemáticas y se convirtió en objeto de estudio y curiosidad.
+
+A pesar de su aparente simplicidad, la conjetura de Collatz ha demostrado ser extremadamente difícil de resolver. Numerosos matemáticos han intentado encontrar una demostración o contraejemplo, pero hasta la fecha, la conjetura permanece abierta y sin una solución generalmente aceptada.
+
+A pesar de la falta de avances en su conjetura, Collatz dejó un legado duradero en las matemáticas y su conjetura sigue siendo objeto de fascinación y estudio por parte de matemáticos y entusiastas de todo el mundo.
