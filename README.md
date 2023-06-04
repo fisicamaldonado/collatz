@@ -7,12 +7,15 @@ The Collatz conjecture, also known as the 3n+1 conjecture, is one of the most fa
 
 - If n is even, divide it by 2.
 - If n is odd, multiply it by 3 and add 1.
+
+![Function](img/collatz_eng.png)
+
 - Repeat this process for the new number obtained.
 - The conjecture states that, regardless of the initial number n, eventually you will reach the number 1 and enter a cycle of the form: 4, 2, 1, 4, 2, 1, ..."
 
 The Collatz conjecture suggests that regardless of the starting number, eventually the number 1 will be reached by following the rules of the conjecture.
 
-Although it has been extensively tested for very large numbers, the conjecture has not been proven or disproven for all natural numbers and remains an open problem in mathematics.
+Although it has been extensively tested for very large numbers, the conjecture has not been proven or disproven for all natural numbers and remains an open problem in mathematics. [See article in Wikipedia.](https://en.wikipedia.org/wiki/Collatz_conjecture)
 
 ## 1) File collatz_sequence.py
 In this file, we begin exploring the Collatz conjecture by generating sequences from a given number.
@@ -69,12 +72,15 @@ La conjetura de Collatz, también conocida como la conjetura 3n+1, es uno de los
 
 - Si n es par, divídalo por 2.
 - Si n es impar, multiplíquelo por 3 y sume 1.
+
+![Función](img/collatz_esp.png)
+
 - Repita este proceso para el nuevo número obtenido.
 - La conjetura establece que, independientemente del número inicial n, eventualmente se llegará al número 1 y se entrará en un ciclo de la forma: 4, 2, 1, 4, 2, 1, ..."
 
 La conjetura de Collatz sugiere que sin importar el número de inicio, eventualmente se alcanzará el número 1 siguiendo las reglas de la conjetura.
 
-Aunque se ha comprobado exhaustivamente para números muy grandes, la conjetura aún no ha sido demostrada o refutada para todos los números naturales y sigue siendo un problema abierto en la matemática.
+Aunque se ha comprobado exhaustivamente para números muy grandes, la conjetura aún no ha sido demostrada o refutada para todos los números naturales y sigue siendo un problema abierto en la matemática. [Vea el artículo de Wikipedia](https://es.wikipedia.org/wiki/Conjetura_de_Collatz)
 
 ## 1) Archivo collatz_sequence.py
 
@@ -112,6 +118,8 @@ Cualquier sugerencia es muy bienvenida y pueden hacerme llegar sus comentarios a
 # Reseña Biográfica
 
 La conjetura de Collatz lleva el nombre del matemático alemán Lothar Collatz, quien la formuló en 1937. Collatz nació el 6 de julio de 1910 en Arnsberg, Alemania, y falleció el 26 de septiembre de 1990 en Hamburgo.
+
+![Lothar Collatz](img/lothar_collatz.png)
 
 Collatz era un matemático conocido por su trabajo en teoría de números y análisis matemático. Durante su carrera, realizó importantes contribuciones en varios campos, incluyendo la teoría de funciones, las ecuaciones diofánticas y la teoría ergódica.
 
