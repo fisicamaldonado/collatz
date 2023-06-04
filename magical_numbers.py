@@ -1,0 +1,49 @@
+import matplotlib.pyplot as plt
+
+def collatz_sequence(starting_number):
+    """
+    Calculates the Collatz sequence for a given starting number.
+    Returns a list of iterations and the corresponding number sequence.
+    """
+    sequence = [starting_number]
+    iteration_count = [0]
+    counter = 0
+    while starting_number != 1:
+        if starting_number % 2 == 0:
+            starting_number = starting_number // 2
+        else:
+            starting_number = 3 * starting_number + 1
+        counter += 1
+        iteration_count.append(counter)
+        sequence.append(starting_number)
+    return [iteration_count, sequence]
+
+
+def find_largest(starting_number):
+  """
+  Find the Largest number is Collatz set startting from 2 to the given number.
+  Creates a set of 'Magical numbers'. Each of one of those magical numbers produces a local maximum of iterations.
+  """
+    max_iterations = []
+    max_sequence = []
+    new_sequence = collatz_sequence(2)
+    for i in range (2, starting_number+1):
+        test_sequence = collatz_sequence(i)
+        iterations = test_sequence[0]
+        if len(iterations) > len(new_sequence[0]):
+            max_sequence.append(test_sequence[1][0])  # Store the new local maximum of the sequence
+            max_iterations.append(len(iterations))  # Store the iteration for that maximum
+            new_sequence = test_sequence
+    
+    # Defining the 'Magical Numbers' as those numbers in the Collatz sequence that show local maximum iterations
+    
+    print('The largest number in the sequence is', new_sequence[1][0], 'with', len(new_sequence[0]), 'elements.')
+    print('Max iterations between 2 and', starting_number, ': ', max_iterations)
+    print('The magical numbers are:', max_sequence)
+    plt.plot(max_sequence, max_iterations, 'b.')
+    plt.xlabel('Magical Numbers')
+    plt.ylabel('Max Iterations')
+    plt.title(f'Collatz Magical numbers until n={starting_number}')
+    plt.show()
+    
+find_largest(100)
