@@ -46,7 +46,7 @@ Any suggestions are welcome, and you can send your comments to: fisicamaldonado.
 
 The Collatz conjecture is named after the German mathematician Lothar Collatz, who formulated it in 1937. Collatz was born on July 6, 1910, in Arnsberg, Germany, and passed away on September 26, 1990, in Hamburg.
 
-![Lothar Collatz] (img/lothar_collatz.png)
+![Lothar Collatz](img/lothar_collatz.png)
 
 Collatz was a mathematician known for his work in number theory and mathematical analysis. Throughout his career, he made significant contributions in various fields, including the theory of functions, Diophantine equations, and ergodic theory.
 
