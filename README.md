@@ -28,9 +28,10 @@ When running the program, the following result is obtained:
 In this second part, the Collatz sequence is used and the number of iterations is introduced into its definition for each case.
 The sequence is then plotted against the number of iteration steps, with the initial number of the sequence assigned to step 0.
 
-![N=10](img/collatz_01.png) ![N=100](img/collatz_02.png) ![N=1000](img/collatz_03.png)
-
-
+Three differents sequences are shown for N=10, N=100 and N=1000
+![N=10](img/collatz_01.png) 
+![N=100](img/collatz_02.png) 
+![N=1000](img/Collatz_03.png)
 
 ## 3) File magical_numbers.py
 Defining 'Collatz Magical Numbers' as the numbers that yield a maximum number of iterations, this part aims to find the series of numbers that generate local maxima in the number of iterations.
@@ -98,6 +99,11 @@ Al correr el programa se obtiene el siguiente resultado:
 
 En esta segunda parte, se utiliza la secuencia de collatz y se introduce en su definición el número de iteraciones para cada caso.
 Luego se grafica la secuencia en función del número de pasos de la iteración, asignando al paso 0 el número inicial de la secuencia.
+
+Se muestran tres secuencias de Collatz para N=10, N=100 y N=1000.
+![N=10](img/collatz_01.png) 
+![N=100](img/collatz_02.png) 
+![N=1000](img/Collatz_03.png)
 
 ## 3) Archivo magical_numbers.py
 
