@@ -1,5 +1,6 @@
 # Collatz Conjecture
 ### A study of the Collatz conjecture and the unusual behavior of the number 27 using Matplotlib in Python.
+[(Click here for Spanish Translation or scrolling down)](https://github.com/fisicamaldonado/collatz#conjetura-de-collatz)
 
 The Collatz conjecture, also known as the 3n+1 conjecture, is one of the most famous unsolved problems in mathematics:
 
@@ -69,9 +70,7 @@ The motivation behind Collatz's formulation of the conjecture is not clearly doc
 
 Although Collatz published the conjecture in an internal report in 1937, the lack of significant progress in its proof or refutation led to its limited popularity until the 1970s when it was mentioned in mathematical publications and became a subject of study and curiosity.
 
-Despite its apparent simplicity, the Collatz conjecture has proven to be extremely difficult to resolve. Numerous mathematicians have attempted to find a proof or counterexample, but to this day, the conjecture remains open and without a generally accepted solution.
-
-Despite the lack of progress in his conjecture, Collatz left a lasting legacy in mathematics, and his conjecture continues to be a subject of fascination and study for mathematicians and enthusiasts worldwide.
+Despite its apparent simplicity, the Collatz conjecture has proven to be extremely difficult to resolve. Numerous mathematicians have attempted to find a proof or counterexample, but to this day, the conjecture remains open and without a generally accepted solution. Collatz left a lasting legacy in mathematics, and his conjecture continues to be a subject of fascination and study for mathematicians and enthusiasts worldwide.
 
 ## ---- Versión en español ----
 
@@ -151,6 +150,4 @@ La motivación de Collatz para formular su conjetura no está claramente documen
 
 Aunque Collatz publicó la conjetura en un informe interno en 1937, la falta de avances significativos en su demostración o refutación llevó a que la conjetura no se popularizara ampliamente hasta la década de 1970, cuando fue mencionada en publicaciones matemáticas y se convirtió en objeto de estudio y curiosidad.
 
-A pesar de su aparente simplicidad, la conjetura de Collatz ha demostrado ser extremadamente difícil de resolver. Numerosos matemáticos han intentado encontrar una demostración o contraejemplo, pero hasta la fecha, la conjetura permanece abierta y sin una solución generalmente aceptada.
-
-A pesar de la falta de avances en su conjetura, Collatz dejó un legado duradero en las matemáticas y su conjetura sigue siendo objeto de fascinación y estudio por parte de matemáticos y entusiastas de todo el mundo.
+A pesar de su aparente simplicidad, la conjetura de Collatz ha demostrado ser extremadamente difícil de resolver. Numerosos matemáticos han intentado encontrar una demostración o contraejemplo, pero hasta la fecha, la conjetura permanece abierta y sin una solución generalmente aceptada. Collatz dejó un legado duradero en las matemáticas y su conjetura sigue siendo objeto de fascinación y estudio por parte de matemáticos y entusiastas de todo el mundo.
