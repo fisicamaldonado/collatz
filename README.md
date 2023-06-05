@@ -30,6 +30,7 @@ In this second part, the Collatz sequence is used and the number of iterations i
 The sequence is then plotted against the number of iteration steps, with the initial number of the sequence assigned to step 0.
 
 Three differents sequences are shown for N=10, N=100 and N=1000
+
 ![N=10](img/collatz_01.png) 
 ![N=100](img/collatz_02.png) 
 ![N=1000](img/Collatz_03.png)
@@ -38,6 +39,7 @@ Three differents sequences are shown for N=10, N=100 and N=1000
 Defining 'Collatz Magical Numbers' as the numbers that yield a maximum number of iterations, this part aims to find the series of numbers that generate local maxima in the number of iterations.
 
 Here we visualize two examples of maximum iterations for N = 1 to N = 27 and to N = 10^6.
+
 ![Magical Numbers 1](img/collatz_04.png) 
 ![Magical Numbers 2](img/Collatz_05.png) 
 
@@ -107,6 +109,7 @@ En esta segunda parte, se utiliza la secuencia de collatz y se introduce en su d
 Luego se grafica la secuencia en función del número de pasos de la iteración, asignando al paso 0 el número inicial de la secuencia.
 
 Se muestran tres secuencias de Collatz para N=10, N=100 y N=1000.
+
 ![N=10](img/collatz_01.png) 
 ![N=100](img/collatz_02.png) 
 ![N=1000](img/Collatz_03.png)
@@ -116,6 +119,7 @@ Se muestran tres secuencias de Collatz para N=10, N=100 y N=1000.
 Definiendo a los 'Números mágicos de Collatz' como los números que arrojan un máximo en el número de iteraciones, se propone aquí encontrar la serie de números que arrojan máximos locales en la cantidad de iteraciones que generan.
 
 Podemos ver a continuación los "número mágicos" que devuelven máximos locales para N = 1 hasta N = 27 y hasta N = 10^6.
+
 ![Magical Numbers 1](img/collatz_04.png) 
 ![Magical Numbers 2](img/Collatz_05.png) 
 
