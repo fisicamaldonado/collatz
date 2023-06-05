@@ -36,11 +36,18 @@ Three differents sequences are shown for N=10, N=100 and N=1000
 ## 3) File magical_numbers.py
 Defining 'Collatz Magical Numbers' as the numbers that yield a maximum number of iterations, this part aims to find the series of numbers that generate local maxima in the number of iterations.
 
+Here we visualize two examples of maximum iterations for N = 1 to N = 27 and to N = 10^6.
+![Magical Numbers 1](img/collatz_04.png) 
+![Magical Numbers 2](img/Collatz_05.png) 
+
 It is precisely here that attention is drawn to the number 27, which exhibits a gap and produces a high number of iterations (112) compared to its nearby neighbors.
 
 ## 4) File collatz_ratios.py
 Finally, the ratio is calculated between the number of iterations and the "Collatz Magical Numbers" obtained with the find_largest function.
 By graphing the ratio against the "Collatz Magical Numbers", it can be notably observed how the number 27 generates the highest ratio among all the numbers studied. Furthermore, the ratio follows a decreasing pattern as the initial number of the sequence increases, suggesting that there will be no other number that yields a higher ratio than that of the number 27.
+
+![Magical Numbers Ratios 1](img/Collatz_07.png) 
+![Magical Numbers Ratios 2](img/Collatz_06.png) 
 
 ## Conclusions
 - A series of simple Python files were implemented to analyze and visualize the Collatz conjecture.
@@ -69,7 +76,7 @@ Despite the lack of progress in his conjecture, Collatz left a lasting legacy in
 ## ---- Versión en español ----
 
 # Conjetura de Collatz 
-Un estudio de la conjetura de Collatz y el comportamiento inusual del número 27
+### Un estudio de la conjetura de Collatz y el comportamiento inusual del número 27 utilizando la librería Matplotlib de Python.
 
 La conjetura de Collatz, también conocida como la conjetura 3n+1, es uno de los problemas sin resolver más famosos en matemáticas:
 
@@ -109,12 +116,19 @@ Se muestran tres secuencias de Collatz para N=10, N=100 y N=1000.
 
 Definiendo a los 'Números mágicos de Collatz' como los números que arrojan un máximo en el número de iteraciones, se propone aquí encontrar la serie de números que arrojan máximos locales en la cantidad de iteraciones que generan.
 
+Podemos ver a continuación los "número mágicos" que devuelven máximos locales para N = 1 hasta N = 27 y hasta N = 10^6.
+![Magical Numbers 1](img/collatz_04.png) 
+![Magical Numbers 2](img/Collatz_05.png) 
+
 Es aquí precisamente, cuando llama la atención para los primeros 100 números, cómo el número 27 genera un salto (gap) produciendo un número elevado de iteraciones (112) en comparación a sus vecinos cercanos.
 
 ## 4) Archivo collatz_ratios.py
 
 Finalmente se realiza el ratio (cociente) entre el número de iteraciones y los "números mágicos de Collatz" obtenidos con la función find_largest.
 Al graficar el ratio en función de los "números mágicos de Collatz" se puede observar notablmente cómo el número 27 genera un ratio máximo entre todos los números estudiados. Observando además cómo el ratio sigue un patrón decreciente a medida que aumenta el número inicial de la secuencia, se presume que no habrá otro número que arroje un ratio mayor que el del número 27.
+
+![Magical Numbers Ratios 1](img/Collatz_07.png) 
+![Magical Numbers Ratios 2](img/Collatz_06.png) 
 
 ## Conclusiones
 
