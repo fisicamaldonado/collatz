@@ -1,5 +1,5 @@
 # Collatz Conjecture
-A study of the Collatz conjecture and the unusual behavior of the number 27.
+### A study of the Collatz conjecture and the unusual behavior of the number 27 using Matplotlib in Python.
 
 The Collatz conjecture, also known as the 3n+1 conjecture, is one of the most famous unsolved problems in mathematics:
 
