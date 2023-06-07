@@ -21,10 +21,15 @@ Although it has been extensively tested for very large numbers, the conjecture h
 ## 1) File collatz_sequence.py
 In this file, we begin exploring the Collatz conjecture by generating sequences from a given number.
 The number 10 is used as an example, but the user can modify it, even by entering an input.
-When running the program, the following result is obtained:
+When running the program for n = 10, the following result is obtained:
 
-[10, 5, 16, 8, 4, 2, 1]
-
+```
+The Collatz Sequence for number 10 is: [10, 5, 16, 8, 4, 2, 1]
+Max value in the sequence is 16
+There are 6 iterations in this sequence
+The ratio between the # of Iterations and the starting number is 0.6
+The ratio between the max value and the starting number is 1.6
+```
 ## 2) File plot_collatz.py
 In this second part, the Collatz sequence is used and the number of iterations is introduced into its definition for each case.
 The sequence is then plotted against the number of iteration steps, with the initial number of the sequence assigned to step 0.
