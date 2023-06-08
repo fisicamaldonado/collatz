@@ -5,6 +5,8 @@ def collatz_sequence(starting_number):
     Calculates the Collatz sequence for a given starting number.
     Returns a list of iterations and the corresponding number sequence.
     """
+    if not isinstance(starting_number, int) or starting_number <= 0:
+        raise ValueError("Input must be a positive integer.")
     sequence = [starting_number]
     iteration_count = [0]
     counter = 0
