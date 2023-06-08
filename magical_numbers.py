@@ -1,29 +1,12 @@
 import matplotlib.pyplot as plt
-
-def collatz_sequence(starting_number):
-    """
-    Calculates the Collatz sequence for a given starting number.
-    Returns a list of iterations and the corresponding number sequence.
-    """
-    sequence = [starting_number]
-    iteration_count = [0]
-    counter = 0
-    while starting_number != 1:
-        if starting_number % 2 == 0:
-            starting_number = starting_number // 2
-        else:
-            starting_number = 3 * starting_number + 1
-        counter += 1
-        iteration_count.append(counter)
-        sequence.append(starting_number)
-    return [iteration_count, sequence]
+from plot_collatz import collatz_sequence
 
 
 def find_largest(starting_number):
-  """
-  Find the Largest number is Collatz set startting from 2 to the given number.
-  Creates a set of 'Magical numbers'. Each of one of those magical numbers produces a local maximum of iterations.
-  """
+    """
+    Find the Largest number is Collatz set startting from 2 to the given number.
+    Creates a set of 'Magical numbers'. Each of one of those magical numbers produces a local maximum of iterations.
+    """
     max_iterations = []
     max_sequence = []
     new_sequence = collatz_sequence(2)
@@ -34,9 +17,15 @@ def find_largest(starting_number):
             max_sequence.append(test_sequence[1][0])  # Store the new local maximum of the sequence
             max_iterations.append(len(iterations))  # Store the iteration for that maximum
             new_sequence = test_sequence
+    print_magical_numbers(max_sequence,max_iterations,new_sequence,starting_number)
+        
     
-    # Defining the 'Magical Numbers' as those numbers in the Collatz sequence that show local maximum iterations
+# Defining the 'Magical Numbers' as those numbers in the Collatz sequence that show local maximum iterations
     
+def print_magical_numbers(max_sequence,max_iterations,new_sequence,starting_number):
+    '''
+    Plots the Numbers with maximum iterations in the Range (2,starting_number)
+    '''
     print('The largest number in the sequence is', new_sequence[1][0], 'with', len(new_sequence[0]), 'elements.')
     print('Max iterations between 2 and', starting_number, ': ', max_iterations)
     print('The magical numbers are:', max_sequence)

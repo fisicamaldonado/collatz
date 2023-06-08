@@ -7,6 +7,7 @@ def collatz_sequence(starting_number):
     """
     if not isinstance(starting_number, int) or starting_number <= 0:
         raise ValueError("Input must be a positive integer.")
+    
     sequence = [starting_number]
     iteration_count = [0]
     counter = 0
@@ -33,5 +34,6 @@ def plot_collatz_sequence(starting_number):
     plt.ylabel('Sequence numbers')
     plt.title(f'Collatz sequence for n={starting_number}')
     plt.show()
-
-plot_collatz_sequence(10)
+    
+if __name__ == "__main__":
+    plot_collatz_sequence(10)

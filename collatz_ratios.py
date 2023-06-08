@@ -3,24 +3,8 @@ This file, adds the ratios between the iterations of the magical numbers and tho
 """
 
 import matplotlib.pyplot as plt
+from plot_collatz import collatz_sequence
 
-def collatz_sequence(starting_number):
-    """
-    Calculates the Collatz sequence for a given starting number.
-    Returns a list of iterations and the corresponding number sequence.
-    """
-    sequence = [starting_number]
-    iteration_count = [0]
-    counter = 0
-    while starting_number != 1:
-        if starting_number % 2 == 0:
-            starting_number = starting_number // 2
-        else:
-            starting_number = 3 * starting_number + 1
-        counter += 1
-        iteration_count.append(counter)
-        sequence.append(starting_number)
-    return [iteration_count, sequence]
     
 def find_largest(starting_number):
     max_iterations = []
@@ -46,9 +30,9 @@ def find_largest(starting_number):
     plt.plot(max_sequence,ratios,'r-')
     plt.xlabel('Magical Numbers')
     plt.ylabel('Max Iterations/Magical Numbers')
-    plt.title(f'Collatz Magical numbers until n={starting_number}')
+    plt.title(f'Ratios Iterations/Collatz Magical numbers until n={starting_number}')
     plt.show()
     print(ratios)
 
         
-find_largest(10000)
+find_largest(100)
